@@ -26,6 +26,8 @@
 % %     B1_array=[B1_array; RF]
 % end
 %rf=b1.rf
+
+
 %% Extract RF array
 seq_name='SE_rfdeath_5000.seq'; 
 sys = mr.opts('B0', 1.5); 
@@ -53,7 +55,6 @@ RF_extracted_new=zeros(N_rf,3);
            if n==N_rf
                break
            end
-
         end
     end
 
